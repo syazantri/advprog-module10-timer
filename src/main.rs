@@ -78,6 +78,8 @@ fn main() {
         println!("Sasa's Komputer: done!");
     });
 
+    println!("Sasa's Komputer: meow!");
+
     drop(spawner);
 
     executor.run();
